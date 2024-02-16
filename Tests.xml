@@ -2,63 +2,72 @@
 <suite>
 	<id>S1</id>
 	<name>Master</name>
-	<description></description>
+	<description/>
 	<sections>
 		<section>
-		<name>google</name>
-		<description></description>
-						<cases>
-												<case>
-				<id>C8</id>
-				<title>Проверить работу кнопки голосового ввода</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Medium</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+			<name>google</name>
+			<description/>
+			<cases>
+				<case>
+					<id>C8</id>
+					<title>Проверить работу кнопки голосового ввода</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Medium</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Нажать на кнопку голосового поиска
 
 
 
 
 
-</steps>
-										<expected>Открывается страница голосового ввода</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C9</id>
-				<title>Проверить работоспособность кнопки Google Leans</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Medium</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>Открывается страница голосового ввода</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C9</id>
+					<title>Проверить работоспособность кнопки Google Leans</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Medium</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля под логотипом
 3) Нажать на кнопку с иконкой фотоапарата
 
-</steps>
-										<expected>Структура главной страницы перестроится, где появится элемент drag&amp;drop а под ним будет находится текстовое поле для ссылки на изображение
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C10</id>
-				<title>Проверить работу кнопки экранной клавиатуры</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Medium</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>Структура главной страницы перестроится, где появится элемент drag&amp;drop а под ним будет находится текстовое поле для ссылки на изображение
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C10</id>
+					<title>Проверить работу кнопки экранной клавиатуры</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Medium</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор на текстовое поле поиска под логотипом
 2) Нажать на кнопку с иконкой клавиатуры
 
@@ -66,22 +75,25 @@
 
 
 
-</steps>
-										<expected>На странице отобразится интерактивная клавиатура. 
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C11</id>
-				<title>Проверить работу появление подсказки при наведении на кнопку &quot;Экранной клавиатуры&quot;</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Medium</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>На странице отобразится интерактивная клавиатура. 
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C11</id>
+					<title>Проверить работу появление подсказки при наведении на кнопку &quot;Экранной клавиатуры&quot;</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Medium</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля
 3) Навести курсор на кнопку &quot;Экранной клавиатуры&quot;
 
@@ -89,22 +101,25 @@
 
 
 
-</steps>
-										<expected>Появляется подсказка с текстом &quot;Экранная клавиатура&quot; 
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C14</id>
-				<title>Проверить работу появление подсказки при наведении на кнопку &quot;Голосовой поиск&quot;</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Medium</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>Появляется подсказка с текстом &quot;Экранная клавиатура&quot; 
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C14</id>
+					<title>Проверить работу появление подсказки при наведении на кнопку &quot;Голосовой поиск&quot;</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Medium</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля
 3) Навести курсор на кнопку &quot;Голосовой поиск&quot;
 
@@ -112,22 +127,25 @@
 
 
 
-</steps>
-										<expected>Появляется подсказка с текстом &quot;Голосовой поиск&quot; 
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C15</id>
-				<title>Проверить работу появление подсказки при наведении на кнопку  &quot;Google Leans&quot;</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Medium</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>Появляется подсказка с текстом &quot;Голосовой поиск&quot; 
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C15</id>
+					<title>Проверить работу появление подсказки при наведении на кнопку  &quot;Google Leans&quot;</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Medium</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля
 3) Навести курсор на кнопку &quot;Google Leans&quot;
 
@@ -135,22 +153,25 @@
 
 
 
-</steps>
-										<expected>Появляется подсказка с текстом &quot;Google Leans&quot; 
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C16</id>
-				<title>Проверить изменение состояния поискового текстового поля при наведении курсора</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Low</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>Появляется подсказка с текстом &quot;Google Leans&quot; 
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C16</id>
+					<title>Проверить изменение состояния поискового текстового поля при наведении курсора</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Low</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля
 3) Навести курсор на поисковое текстовое поле
 
@@ -158,71 +179,80 @@
 
 
 
-</steps>
-										<expected>У текстового поля должна появится тень, курсор должен поменяться на каретку 
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C17</id>
-				<title>Проверить работоспособность подсказок при поиске</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>High</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>У текстового поля должна появится тень, курсор должен поменяться на каретку 
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C17</id>
+					<title>Проверить работоспособность подсказок при поиске</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>High</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля
 3) Нажать на текстовое поле
 4) Начинать вводить текст
-</steps>
-										<expected>При вводе текста, под поисковым полем должен отобразиться список подсказок 
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C18</id>
-				<title>Проверить работоспособность кнопки &quot;Очистить&quot; после поиска</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Medium</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>При вводе текста, под поисковым полем должен отобразиться список подсказок 
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C18</id>
+					<title>Проверить работоспособность кнопки &quot;Очистить&quot; после поиска</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Medium</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля
 3) Нажать на текстовое поле
 4) Начинать вводить текст
 5) Нажать на кнопку &quot;Очистить&quot;
-</steps>
-										<expected>Текст очистится, список подсказок удалится 
-</expected>
-									</custom>
-							</case>
-															<case>
-				<id>C19</id>
-				<title>Проверить поведение поискового поля после удаления текста</title>
-												<template>Test Case (Text)</template>
-																<type>Functional</type>
-																<priority>Low</priority>
-																				<estimate>2</estimate>
-																								<references></references>
-																				<custom>
-										<automation_type><id>0</id><value> None</value></automation_type>
-										<steps>1) Открыть главную страницу
+						</steps>
+						<expected>Текст очистится, список подсказок удалится 
+						</expected>
+					</custom>
+				</case>
+				<case>
+					<id>C19</id>
+					<title>Проверить поведение поискового поля после удаления текста</title>
+					<template>Test Case (Text)</template>
+					<type>Functional</type>
+					<priority>Low</priority>
+					<estimate>2</estimate>
+					<references/>
+					<custom>
+						<automation_type>
+							<id>0</id>
+							<value>None</value>
+						</automation_type>
+						<steps>1) Открыть главную страницу
 2) Перевести курсор в сторону поискового текстового поля
 3) Нажать на текстовое поле
 4) Начинать вводить текст
 5) Удалить текст
-</steps>
-										<expected>Список подсказок под поисковыми поле должен удалится, кнопка &quot;Очистить&quot; должна удалится 
-</expected>
-									</custom>
-							</case>
-								</cases>
-							</section>
+						</steps>
+						<expected>Список подсказок под поисковыми поле должен удалится, кнопка &quot;Очистить&quot; должна удалится 
+						</expected>
+					</custom>
+				</case>
+			</cases>
+		</section>
 	</sections>
 </suite>
